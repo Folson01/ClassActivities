@@ -19,9 +19,8 @@ console.log(NaN || !"true"); // true
 // and "kids menu" if the age is less than 10
 
 let age = 30;
-age > 10 ?
-.console.log("kids menu") :
-console.log("full menu");
+age > 10 ? console.log("kids menu")
+: console.log("full menu");
 
 // Using only logical operators (no comparison operators),
 // write an if statement that prints...
